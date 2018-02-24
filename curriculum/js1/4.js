@@ -7,7 +7,11 @@
  */
 
 const solution = (a, b) => {
-  return 0;
+	if (a < 0) {
+		return "";
+	} else {
+		return b.repeat(a);
+	}
 };
 
 module.exports = {
